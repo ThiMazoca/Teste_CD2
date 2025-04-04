@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def helloWorld():
-	return "Teste da primeira rota no vídeo do Samuel."
+	return "Teste da primeira rota no vídeo do Thiago."
 
 @app.route("/youtube", methods=["GET"])
 def teste():
